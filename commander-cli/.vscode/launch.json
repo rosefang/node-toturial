@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Bin",
+            "type": "node",
+            "request": "launch",
+            "program": "",
+            // "runtimeExecutable": "${workspaceFolder}/../Tools/someprogramthatrunsmine",
+            "runtimeArgs": [
+                "pro",
+            ],
+            "cwd": "${workspaceFolder}",
+            //"console": "integratedTerminal",
+            "port": 3000
+        }
+    ]
+}
